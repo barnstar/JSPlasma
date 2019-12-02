@@ -1,0 +1,60 @@
+body, html {
+    background-color: black;
+    height: 100%;
+    margin: 0
+}
+
+.titleContainer,
+.controlsContainer{
+    background-color: #11111166;
+    position:fixed;
+    left:0px;
+    width:100%;
+}
+
+.controlsContainer {
+    bottom:0px;
+    vertical-align: top;
+    display: flex;
+}
+
+.titleContainer {
+    top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30pt;
+    text-shadow: 2pt;
+    text-align: center;
+}
+
+.renderSurface {
+    height: 99.5%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin: 0
+}
+
+.colorButton,
+.control {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: center;
+    margin: 10px;
+}
+
+.colorButton {
+    width : 40px;
+    height : 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fillCanvas {
+    width : 100%;
+    height: 100%;
+}
+
